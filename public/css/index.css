@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-inner,
+.carousel-item img {
+  height: 500px; /* Or any height you prefer */
+  object-fit: cover; /* This makes the image cover the area without distortion */
+  width: 100%; /* Make sure images are full width */
+}
+.card-container{
+    display: flex;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.card{
+    margin-left: 30px;
+}
+.card img{
+    height: 150px;
+}
