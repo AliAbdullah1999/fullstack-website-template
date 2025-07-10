@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 .carousel-inner,
 .carousel-item img {
@@ -47,8 +47,9 @@
   /* margin-top: 30px; */
   display: flex;
   /* margin-left: 40px; */
-  margin-right: 40px;
+  /* margin-right: 40px; */
   background-color: #f8f9fa;
+  padding-bottom: 30px;
 }
 .contact-form {
   width: 50%;
@@ -63,4 +64,50 @@
 
   /* padding: 20px; */
   /* background-color: #f8f9fa; */
+}
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about img {
+    width: 100%;
+    height: auto;
+  }
+  .about .text {
+    width: 100%;
+    text-align: center;
+  }
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .card {
+    margin-left: 30px;
+  }
+  .card img {
+    height: 100%;
+  }
+.contact{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-form .form{
+    width: 90%;
+    margin-right: 30px;
+    margin-left: 0;
+  }
+  .contact-form{
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .contact-info {
+    width: 100%;
+   margin-left: 20px;
+  }
 }
