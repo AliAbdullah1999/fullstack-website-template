@@ -32,6 +32,7 @@
 .about img {
   width: 50%;
   height: 30vh;
+  border-radius: 15px;
 }
 .banner {
   width: 100%;
