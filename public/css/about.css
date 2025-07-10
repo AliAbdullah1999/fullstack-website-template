@@ -24,6 +24,7 @@ align-items: center;
     width: 40%;
     height: 35vh;
     border-radius: 30%;
+    
 }
 .overview .card-container{
     width: 50%;
@@ -98,4 +99,28 @@ padding-top: 80px;
 padding-bottom: 80px;
 justify-content: center;
 align-items: center;
+}
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: fadeInLeft 3s ease forwards;
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(30px);
+  animation: fadeInRight 3s ease forwards;
+}
+
+@keyframes fadeInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
