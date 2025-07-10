@@ -103,7 +103,7 @@ align-items: center;
 .fade-in-left {
   opacity: 0;
   transform: translateX(-30px);
-  animation: fadeInLeft 3s ease forwards;
+  animation: fadeInLeft 5s ease forwards;
 }
 
 @keyframes fadeInLeft {
@@ -115,7 +115,7 @@ align-items: center;
 .fade-in-right {
   opacity: 0;
   transform: translateX(30px);
-  animation: fadeInRight 3s ease forwards;
+  animation: fadeInRight 5s ease forwards;
 }
 
 @keyframes fadeInRight {
