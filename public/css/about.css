@@ -12,3 +12,29 @@ padding-top: 50px;
 justify-content: center;
 align-items: center;
 }
+.overview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.overview img{
+    width: 40%;
+    height: 35vh;
+    border-radius: 30%;
+}
+.overview .card-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.overview .card{
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
