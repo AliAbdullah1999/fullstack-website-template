@@ -91,14 +91,24 @@ align-items: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.Banner{
+.Banner {
   width: 100%;
   height: 30vh;
-background-color: #b2cfec;
-padding-top: 80px;
-padding-bottom: 80px;
-justify-content: center;
-align-items: center;
+  background-color: #b2cfec;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Banner p{
+  font-size: 24px;
+  color: #333;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 .fade-in-left {
   opacity: 0;

@@ -63,4 +63,31 @@ padding-bottom: 15px;
     width: 100%;
    margin-left: 20px;
   }
+    .Banner {
+  width: 100%;
+  height: 30vh;
+
+  background-color: #b2cfec;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Banner p{
+  font-size: 16px;
+  color: #333;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 }
