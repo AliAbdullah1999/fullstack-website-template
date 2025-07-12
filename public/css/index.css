@@ -3,69 +3,97 @@
   padding: 0;
   box-sizing: border-box !important;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 .carousel-inner,
 .carousel-item img {
-  height: 500px; /* Or any height you prefer */
-  object-fit: cover; /* This makes the image cover the area without distortion */
-  width: 100%; /* Make sure images are full width */
+  height: 500px; /* Set carousel height */
+  object-fit: cover; /* Ensure images cover area without distortion */
+  width: 100%;
 }
+
 .card-container {
   display: flex;
   width: 80%;
-  margin-left: 100px;
-  margin-right: 30px;
+  margin: 0 auto;
 }
+
 .card {
   margin-left: 30px;
 }
+
 .card img {
   height: 150px;
 }
+
 .about {
   display: flex;
   margin-left: 40px;
   margin-right: 40px;
 }
+
 .about .text {
   width: 50%;
 }
+
 .about img {
   width: 50%;
   height: 30vh;
   border-radius: 15px;
 }
+
 .banner {
   width: 100%;
   height: 30vh;
   background-color: #b2cfec;
   padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.banner p{
+  font-size: 24px;
+  color: #333;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .contact {
   width: 100%;
-  /* margin-top: 30px; */
   display: flex;
-  /* margin-left: 40px; */
-  /* margin-right: 40px; */
   background-color: #f8f9fa;
   padding-bottom: 30px;
 }
+
 .contact-form {
   width: 50%;
   margin-right: 40px;
-
-  /* padding: 20px; */
-  /* background-color: #f8f9fa; */
 }
+
 .contact-info {
   width: 50%;
   margin-left: 40px;
-
-  /* padding: 20px; */
-  /* background-color: #f8f9fa; */
+}
+.card{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 768px) {
+  *{
+    box-sizing: border-box !important;
+    overflow-x: hidden !important ;
+  }
   .about {
     flex-direction: column;
     align-items: center;
@@ -91,23 +119,49 @@
   .card img {
     height: 100%;
   }
-.contact{
+  .contact {
     flex-direction: column;
     align-items: center;
   }
-  .contact-form .form{
+  .contact-form .form {
     width: 90%;
     margin-right: 30px;
     margin-left: 0;
   }
-  .contact-form{
+  .contact-form {
     width: 90%;
     margin-right: 20px;
     margin-left: 20px;
   }
-  
   .contact-info {
     width: 100%;
-   margin-left: 20px;
+    margin-left: 20px;
   }
+  .banner {
+  width: 100%;
+  height: 30vh;
+
+  background-color: #b2cfec;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner p{
+  font-size: 16px;
+  color: #333;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 }
